@@ -1,6 +1,10 @@
 /* Import fonts/ external */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
+/* Import components*/
+@import url("components/button.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
 
 
 h1 {
