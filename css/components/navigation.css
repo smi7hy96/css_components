@@ -15,12 +15,22 @@ ul.navbar {
 
 li.navbar {
   color: #14213D;
-display: inline-block;
-font-family: 'Abel', sans-serif;
-font-size: 16px;
-font-weight: 300;
-margin: 16px 20px;
-text-transform: uppercase;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+li.navbar-title {
+  display: inline-block;
+  color: rgba(140, 0, 26, 1);
+  font-size: 25px;
+  font-weight: 600;
+  margin: 16px 20px;
+  text-transform: uppercase;
+
 }
 
 a.navbar:hover {
