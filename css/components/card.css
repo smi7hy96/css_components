@@ -2,8 +2,7 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.8s;
   background-color: grey;
-  width: 33vw
-
+  border-radius: 5px; /* 5px rounded corners */
 }
 
 .card:hover {
@@ -11,6 +10,48 @@
 }
 
 .container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
   padding: 16px 16px;
 
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width:50vw;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50vw;
+  opacity: 0;
+  transition: .3s ease;
+  background: none
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 6%;
+  right: -8%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 70px
+}
+
+.fa-user:hover {
+  color: #eee;
 }
