@@ -9,7 +9,7 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
 }
 
-.container {
+.container-card {
   position: relative;
   width: 100%;
   max-width: 400px;
@@ -17,7 +17,7 @@
 
 }
 
-img {
+.image {
   border-radius: 5px 5px 0 0;
   width:50vw;
   height: auto;
@@ -36,7 +36,7 @@ img {
   background: none
 }
 
-.container:hover .overlay {
+.container-card:hover .overlay {
   opacity: 1;
 }
 
@@ -54,4 +54,61 @@ img {
 
 .fa-user:hover {
   color: #eee;
+}
+
+.card-category-container {
+  background-image: linear-gradient(to right, red, yellow);
+  background-size: cover;
+  height: 80vh;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #2A2828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4.card-category-title {
+  text-align: center;
+  color: white;
+  font-size: 75px;
+
+}
+.card-contain {
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 50%;
+  text-align: center;
+}
+
+.card-product-category-container {
+
+  border-radius: 50px 50px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://cdn.gardenista.com/wp-content/uploads/2015/04/fields/ipad%20app%20for%20garden%20layout%20design%20l%20gardenista.JPG");
+  background-size: cover;
+  height: 90vh;
+}
+
+H4.card-product-title {
+  color: white;
+  font-size: 75px;
+  font-weight: bold;
+}
+div.blog-card-text-container {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content:
+
+}
+div.card-content-text {
+  width: 50%;
+  text-align: left;
+}
+img.blog-image {
+  padding: 30px;
+  height: 80%;
 }
